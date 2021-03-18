@@ -1,8 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## About the Project
+
+I created this simple project for learning purposes. This project basically consumes the [TMDB API](https://www.themoviedb.org/documentation/api) and shows the featured films, makes a simple search and visualizes basic information of the selected film. The style is simple because the intention was to work on Next.js.
+
 ## Getting Started
 
-First, run the development server:
+First, open this website: [TMDB API](https://www.themoviedb.org/documentation/api), create an account and generate the api key.
+
+Second, in the `lib/tmdb_example.js`, rename to `tmdb.js` and put your key:
+`export const apiKey = "YOUR API KEY";`
+
+After the steps above, run the development server:
 
 ```bash
 npm run dev
@@ -11,12 +20,6 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
 ## Learn More
 
